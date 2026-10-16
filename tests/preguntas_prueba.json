@@ -1,0 +1,22 @@
+[
+  {"id": 1,  "pregunta": "¿Cuánto cuesta el taco?", "seccion_esperada": "Taco", "debe_contener": ["20"]},
+  {"id": 2,  "pregunta": "¿A cómo el taco con queso?", "seccion_esperada": "Taco con queso", "debe_contener": ["27"]},
+  {"id": 3,  "pregunta": "¿Qué lleva la marranita natural?", "seccion_esperada": "Marranita natural", "debe_contener": ["carnitas", "cebolla"]},
+  {"id": 4,  "pregunta": "Precio de la marranita con queso", "seccion_esperada": "Marranita con queso", "debe_contener": ["29"]},
+  {"id": 5,  "pregunta": "¿Tienen alguna marranita especial? ¿Cuánto cuesta?", "seccion_esperada": "Marranita especial con queso", "debe_contener": ["37"]},
+  {"id": 6,  "pregunta": "¿Cuánto cuesta el kilo de carnitas?", "seccion_esperada": "Carnitas por kilo", "debe_contener": ["395"]},
+  {"id": 7,  "pregunta": "¿Cuánto me sale medio kilo de carnitas?", "seccion_esperada": "Carnitas por kilo", "debe_contener": ["220"]},
+  {"id": 8,  "pregunta": "¿Qué cortes de carnitas manejan?", "seccion_esperada": "Carnitas por kilo", "debe_contener": ["maciza", "cuerito", "surtido"]},
+  {"id": 9,  "pregunta": "¿Cuánto cuesta el chamorro?", "seccion_esperada": "Chamorro", "debe_contener": ["165"]},
+  {"id": 10, "pregunta": "¿Cuánto cuesta un lechón entero?", "seccion_esperada": "Lechón entero", "debe_contener": ["encargo"], "no_debe_contener": ["549"]},
+  {"id": 11, "pregunta": "¿Qué aguas frescas tienen?", "seccion_esperada": "Aguas frescas", "debe_contener": ["jamaica", "horchata", "chia"]},
+  {"id": 12, "pregunta": "¿Cuánto cuesta la Coca Zero chica de 355?", "seccion_esperada": "Refrescos", "debe_contener": ["25"]},
+  {"id": 13, "pregunta": "¿Dónde están ubicados?", "seccion_esperada": "Datos del negocio", "debe_contener": ["758", "colon"]},
+  {"id": 14, "pregunta": "¿Tienen servicio a domicilio?", "seccion_esperada": "Datos del negocio", "debe_contener": ["domicilio", "cotiza"]},
+  {"id": 15, "pregunta": "¿A qué hora abren?", "seccion_esperada": "Datos del negocio", "debe_contener": ["9612778843"], "no_debe_contener": ["a.m.", "p.m.", ":00"]},
+  {"id": 16, "pregunta": "Si pido 3 tacos con queso y 2 aguas de jamaica, ¿cuánto es?", "seccion_esperada": "Taco con queso", "debe_contener": ["131"]},
+  {"id": 17, "pregunta": "¿Qué es la quecarnita y cuánto cuesta?", "seccion_esperada": "Quecarnita", "debe_contener": ["queso", "75"]},
+  {"id": 18, "pregunta": "¿Cuánto cuesta la manita?", "seccion_esperada": "Manita", "debe_contener": ["95"]},
+  {"id": 19, "pregunta": "¿Venden pizza?", "seccion_esperada": null, "debe_contener": ["no"], "no_debe_contener": ["pizza $"]},
+  {"id": 20, "pregunta": "¿A qué número hago mi pedido?", "seccion_esperada": "Datos del negocio", "debe_contener": ["9612778843"]}
+]

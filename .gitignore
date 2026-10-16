@@ -1,0 +1,12 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+vectorstore/
+logs/
+resultados/
+
+# Notas internas (no van al repo público)
+DEMO-60S.md
+COMANDOS-JUAN.md
